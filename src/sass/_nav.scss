@@ -1,0 +1,35 @@
+@import './variables';
+
+.nav{
+    flex-basis: 90%;
+    font-size: 20px;
+    margin-bottom: 30px;
+    .nav__list{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        .nav__listItem{
+            flex-basis: 15%;
+            text-align: center;
+            .nav__link{
+                display: block;
+                width: 100%;
+                padding: 20px 10px;
+
+                font-family: $secondaryFont;
+                font-weight: bold;
+                color: black;
+                letter-spacing: 2px;
+                text-decoration: none;
+                text-transform: uppercase;
+
+                border: 2px solid;
+               
+            }
+            .nav__link--log{
+                color: white;
+                background-color:black;
+            } 
+        }
+    }
+}

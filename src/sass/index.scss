@@ -1,0 +1,51 @@
+@import './variables';
+@import './header';
+@import './nav';
+@import './router';
+@import '../components/list';
+@import '../components/done';
+@import '../components/trash';
+@import '../components/add';
+@import '../components/login';
+@import '../components/register';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+.button{
+    font-family: $secondaryFont;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+        color:white;
+        background-color: black;
+    }
+}
+
+.important{
+    font-weight: bold;
+}
+
+.red{
+    color: red;
+}

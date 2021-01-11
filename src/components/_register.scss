@@ -1,0 +1,88 @@
+.register{
+    text-align: center;
+    font-size: 20px;
+    .register__title{
+        margin-bottom: 50px;
+        font-family: $primaryFont;
+    }
+    .register__form{
+        display: flex;
+        flex-direction: column;
+        width:60%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        
+        font-family: $secondaryFont;
+        .register__email{
+            margin-bottom: 30px;
+            .register__email--value{
+                margin-left: 20px;
+                font-size: 1.1em;
+            }
+        }
+        .register__password{
+            margin-bottom: 30px;
+            .register__password--value{
+                margin-left: 20px;
+                font-size: 1.1em;
+            }
+        }
+        .register__passwordConf{
+            margin-bottom: 30px;
+            .register__passwordConf--value{
+                margin-left: 20px;
+                font-size: 1.1em;
+            }
+        
+        
+        
+        }
+        .register__btn{
+            margin: 0 auto;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            width: 200px;
+        }
+        
+    }
+    .register__formVal{
+        display: none;
+        flex-direction: column;
+        width:60%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        font-size: 1.1em;
+        text-transform: uppercase;
+         
+        .register__validation{
+            margin-bottom: 30px;
+            .register__validation--value{
+                margin-left: 20px;
+                font-size: 1.1em;
+            }
+        }
+        .register__valBtn{
+            margin: 0 auto;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            width: 200px;
+        }
+    }
+    
+    .register__monit{
+        background-color: black;
+        margin: 50px auto;
+        color: white;
+        width: 60%;
+        font-size: 2em;
+        font-family: $primaryFont;
+        text-transform: uppercase;
+        border-radius: 20%;
+        opacity: 0 ;
+        transition: 0.3s;
+    }
+}

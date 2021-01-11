@@ -1,0 +1,51 @@
+.add{
+    text-align: center;
+    font-size: 20px;
+    .add__title{
+        margin-bottom: 50px;
+        font-family: $primaryFont;
+    }
+    .add__form{
+        display: flex;
+        flex-direction: column;
+        width:60%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        
+        font-family: $secondaryFont;
+        .add__name{
+            margin-bottom: 30px;
+            .add__name--value{
+                margin-left: 20px;
+            }
+        }
+        .add__date{
+            margin-bottom: 30px;
+            .add__date--value{
+                margin-left: 20px;
+            }
+        }
+        .add__important{
+            margin-bottom: 30px;
+            .add__important--value{
+                margin-left: 20px;
+            }
+        }
+        .add__btn{
+            padding: 10px 20px;
+        }
+    }
+    .add__monit{
+        background-color: black;
+        margin: 50px auto;
+        color: white;
+        width: 60%;
+        font-size: 2em;
+        font-family: $primaryFont;
+        text-transform: uppercase;
+        border-radius: 20%;
+        opacity: 0 ;
+        transition: 0.3s;
+    }
+}
